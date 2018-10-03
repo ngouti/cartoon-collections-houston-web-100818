@@ -2,7 +2,6 @@ def roll_call_dwarves(array)
   # Your code here
   array.each.with_index(1) do 
     |item, index| puts "#{index}. #{item}\n"
-  
 end
 end
 
