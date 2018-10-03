@@ -11,6 +11,7 @@ def summon_captain_planet(array)
  while i < array.length 
   array[i].capatalize! + "!"
 end
+end
 
 def long_planeteer_calls()
   # Your code here
