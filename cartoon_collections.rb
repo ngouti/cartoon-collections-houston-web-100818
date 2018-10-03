@@ -9,12 +9,12 @@ def summon_captain_planet(array)
   # Your code here
    array.map! {|name| name.capitalize + "!"}
   
-# i = 0
-# while i < array.length 
-#  array[i].capitalize! << "!"
-#  i += 1
-#end
-#return array
+                              # i = 0
+                            # while i < array.length 
+                            #  array[i].capitalize! << "!"
+                                  #  i += 1
+                                    #end
+                                      #return array
 end
 
 def long_planeteer_calls(array)
