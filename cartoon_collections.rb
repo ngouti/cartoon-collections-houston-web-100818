@@ -7,7 +7,9 @@ end
 
 def summon_captain_planet(array)
   # Your code here
-  array.split(" ").map(&:capitalize).join(" ") << + "!"
+ i = 0
+ while i < array.length 
+  array[i].capatalize! + "!"
 end
 
 def long_planeteer_calls()
