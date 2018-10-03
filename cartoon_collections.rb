@@ -10,6 +10,7 @@ def summon_captain_planet(array)
  i = 0
  while i < array.length 
   array[i].capatalize! + "!"
+  i += 1
 end
 end
 
