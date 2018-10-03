@@ -17,8 +17,10 @@ def summon_captain_planet(array)
 #return array
 end
 
-def long_planeteer_calls()
+def long_planeteer_calls(array)
   # Your code here
+  array.collect do 
+    
 end
 
 def find_the_cheese()
